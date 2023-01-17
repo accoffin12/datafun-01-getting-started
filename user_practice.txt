@@ -19,3 +19,282 @@ hello
 >>> print( min (a, b))
 3
 >>> 
+(base) PS C:\Users\Tower> ipython
+Python 3.9.13 (main, Aug 25 2022, 23:51:50) [MSC v.1916 64 bit (AMD64)]
+Type 'copyright', 'credits' or 'license' for more information
+IPython 7.31.1 -- An enhanced Interactive Python. Type '?' for help.
+
+In [1]: print('Name Alex Coffin')
+Name Alex Coffin
+
+In [2]: print('Course: CSIS 44608')
+Course: CSIS 44608
+
+In [3]: print('Professor Dr. Case')
+Professor Dr. Case
+
+In [4]: print('Assignment 1, Module 1, Task 3')
+Assignment 1, Module 1, Task 3
+
+In [5]: print()
+
+
+In [6]: print('2.2 Variables and Assigment Statements Examples')
+2.2 Variables and Assigment Statements Examples
+
+In [7]: 45 + 72
+Out[7]: 117
+
+In [8]: x=7
+
+In [9]: y = 3
+
+In [10]: x + y
+Out[10]: 10
+
+In [11]: total = x + y
+
+In [12]: total
+Out[12]: 10
+
+In [13]: type(x)
+Out[13]: int
+
+In [14]: type(10.5)
+Out[14]: float
+
+In [15]: print('Calculate the sum of 10.8, 12.2 and 0.2, store it in variable total.')
+Calculate the sum of 10.8, 12.2 and 0.2, store it in variable total.
+
+In [16]: total = 10.8 + 12.2 + 0.2
+
+In [17]: total
+Out[17]: 23.2
+
+In [18]: print('2.3 Arithmetic')
+2.3 Arithmetic
+
+In [19]: 7 * 4
+Out[19]: 28
+
+In [20]: 2 ** 10
+Out[20]: 1024
+
+In [21]: 9 ** (1 / 2)
+Out[21]: 3.0
+
+In [22]: 7 / 4
+Out[22]: 1.75
+
+In [23]: 7 // 4
+Out[23]: 1
+
+In [24]: 3 // 5
+Out[24]: 0
+
+In [25]: 14 // 7
+Out[25]: 2
+
+In [26]: -13 / 4
+Out[26]: -3.25
+
+In [27]: -13 // 4
+Out[27]: -4
+
+In [28]: print('floor dividion yields the highest intiger that no greater than result')
+floor dividion yields the highest intiger that no greater than result
+
+In [29]: 123 / 0
+---------------------------------------------------------------------------
+ZeroDivisionError                         Traceback (most recent call last)
+<ipython-input-29-76e1a9ab9410> in <module>
+----> 1 123 / 0
+
+ZeroDivisionError: division by zero
+
+In [30]: z = 7
+
+In [31]: z != 7
+Out[31]: False
+
+In [32]: z + 7
+Out[32]: 14
+
+In [33]: a + 7
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-33-86416193d924> in <module>
+----> 1 a + 7
+
+NameError: name 'a' is not defined
+
+In [34]: print('changed variable to a due to miskey')
+changed variable to a due to miskey
+
+In [35]: 17 % 5
+Out[35]: 2
+
+In [36]: 7.5 % 3.5
+Out[36]: 0.5
+
+In [37]: 10 * (5 + 3)
+Out[37]: 80
+
+In [38]: 10 * 5 + 3
+Out[38]: 53
+
+In [39]: print('results dependant on order of operations')
+results dependant on order of operations
+
+In [40]: print('Self Check')
+Self Check
+
+In [41]: 3 * (4 - 5)
+Out[41]: -3
+
+In [42]: 3 * 4 - 5
+Out[42]: 7
+
+In [43]: 4 ** 3 ** 2
+Out[43]: 262144
+
+In [44]: (4 ** 3) ** 2
+Out[44]: 4096
+
+In [45]: 4 ** (3 ** 2)
+Out[45]: 262144
+
+In [46]: print('2.4 Function print and Intro to single- and double- quoted strands')
+2.4 Function print and Intro to single- and double- quoted strands
+
+In [47]: print("welcome to Python!")
+welcome to Python!
+
+In [48]: print('Welcome', 'to', 'Python!')
+Welcome to Python!
+
+In [49]: print('Welcome\nto\n\nPython!')
+Welcome
+to
+
+Python!
+
+In [50]: print('this is a longer string, so we\
+    ...: split it over two lines')
+this is a longer string, so wesplit it over two lines
+
+In [51]: print ('sum is', 7 + 3)
+sum is 10
+
+In [52]: type('word')
+Out[52]: str
+
+In [53]: print('int(5.2)', 'truncates 5.2 to', int(5.2))
+int(5.2) truncates 5.2 to 5
+
+In [54]: print('2.5 Triple-Quoted Strings')
+2.5 Triple-Quoted Strings
+
+In [55]: print('Display "hi" in quotes')
+Display "hi" in quotes
+
+In [56]: print('Display 'hi' in quotes)
+  File "<ipython-input-56-1df0eba7aa52>", line 1
+    print('Display 'hi' in quotes)
+                    ^
+SyntaxError: invalid syntax
+
+
+In [57]: print("Display the name O'Brien")
+Display the name O'Brien
+
+In [58]: print("Display \"hi\" in quotes")
+Display "hi" in quotes
+
+In [59]: print("""Display "hi" and 'bye' in quotes""")
+Display "hi" and 'bye' in quotes
+
+In [60]: triple_quoted_string = """This is a triple-quoted
+    ...: string that spans two lines"""
+
+In [61]: print(triple_quoted_string)
+This is a triple-quoted
+string that spans two lines
+
+In [62]: triple_quoted_string
+Out[62]: 'This is a triple-quoted\nstring that spans two lines'
+
+In [63]: print("""This is a lengthy
+    ...: multiline string containing
+    ...: a few lines \
+    ...: of text""")
+This is a lengthy
+multiline string containing
+a few lines of text
+
+In [64]: print('Getting Input from the User')
+Getting Input from the User
+
+In [65]: name = input("what's your name?")
+what's your name?
+
+In [66]: name = input("What's your name? ")
+What's your name? Alex
+
+In [67]: name
+Out[67]: 'Alex'
+
+In [68]: print(name)
+Alex
+
+In [69]: name = input("What's your name? ")
+What's your name? 'Alex'
+
+In [70]: name
+Out[70]: "'Alex'"
+
+In [71]: print(name)
+'Alex'
+
+In [72]: value1 = input('Enter first number: ')
+Enter first number: 7
+
+In [73]: value2 = input('Enter second number: ')
+Enter second number: 3
+
+In [74]: value1 + value2
+Out[74]: '73'
+
+In [75]: value = input('Enter an integer: ')
+Enter an integer: 7
+
+In [76]: value = int(value)
+
+In [77]: value
+Out[77]: 7
+
+In [78]: another_value = int(input('Enter another integer: '))
+Enter another integer: 13
+
+In [79]: another_value
+Out[79]: 13
+
+In [80]: value + another_value
+Out[80]: 20
+
+In [81]: bad_value = int(input('Enter another integer: '))
+Enter another integer: hello
+---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+<ipython-input-81-cd36e6cf8911> in <module>
+----> 1 bad_value = int(input('Enter another integer: '))
+
+ValueError: invalid literal for int() with base 10: 'hello'
+
+In [82]: int(10.5)
+Out[82]: 10
+
+In [83]: float('6.2') * 3.3
+Out[83]: 20.46
+git config --global accoffin12 "accoffin12"
+git config --global accoffin@outlook.com "accoffin@outlook.com"

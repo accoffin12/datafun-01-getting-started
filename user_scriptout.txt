@@ -1,1 +1,205 @@
 # Paste the output from a sample run here.
+
+# Student Name: Alexandra Coffin, Student ID: S561404
+# Course: CSIS Data Analytics Fundementals
+# Professor: Dr. Case
+# Assignment 1 Module 1 Task 4
+
+
+Python 3.9.13 (main, Aug 25 2022, 23:51:50) [MSC v.1916 64 bit (AMD64)]
+Type "copyright", "credits" or "license" for more information.
+
+IPython 7.31.1 -- An enhanced Interactive Python.
+
+runfile('C:/Users/Tower/Documents/Data Analytics Sp 2023/Repositories/Reference Repo Sp 2023/datafun-01-getting-started/Data fund. Mod. 1 Assign. 1 Formula1 ex.py', wdir='C:/Users/Tower/Documents/Data Analytics Sp 2023/Repositories/Reference Repo Sp 2023/datafun-01-getting-started')
+Domain: Formula 1
+
+Welcome to the world of Formula 1!
+Enter the number of points won by 3 different racers.
+The values of the points must be between 0 and 25.
+No two racers may have the same amont.
+
+Enter Points for racer1: 10
+
+Enter Points for racer2: 25
+
+Enter Points for racer3: 18
+1: Sum:
+Racer1 and Racer2 are on the same Team.
+The team won: 28
+
+2: Average
+What is the average between all 3 racers?
+Average between racers, rounded result 18
+
+3: Product:
+How many points will a racer have if they consistantly finish all year?
+racer1 wins: 220
+racer2 wins: 550
+racer3 wins: 396
+
+4: Minimum Number of Points
+The racer with 10
+
+5: Maximum Number of Points
+The racer with 25
+
+5: Range of Points between Racers
+range: 10 - 25
+
+Decision Making
+Less than statment
+Ouch, the racer with 10 Points, was either back of the grid or DNF.
+
+Greater than statement
+Congrats, racer with 18 points is on the Podium!
+
+Equal to Statement
+Racer2 has won the race 25 Points. Go celebrate with the team!
+
+runfile('C:/Users/Tower/Documents/Data Analytics Sp 2023/Repositories/Reference Repo Sp 2023/datafun-01-getting-started/Data fund. Mod. 1 Assign. 1 Formula1 ex.py', wdir='C:/Users/Tower/Documents/Data Analytics Sp 2023/Repositories/Reference Repo Sp 2023/datafun-01-getting-started')
+Domain: Formula 1
+
+Welcome to the world of Formula 1!
+Enter the number of points won by 3 different racers.
+The values of the points must be between 0 and 25.
+No two racers may have the same amont.
+
+Enter Points for racer1: 0
+
+Enter Points for racer2: 25
+
+Enter Points for racer3: 18
+1: Sum:
+Racer1 and Racer2 are on the same Team.
+The team won: 18
+
+2: Average
+What is the average between all 3 racers?
+Average between racers, rounded result 14
+
+3: Product:
+How many points will a racer have if they consistantly finish all year?
+racer1 wins: 0
+racer2 wins: 550
+racer3 wins: 396
+
+4: Minimum Number of Points
+The racer with 0
+
+5: Maximum Number of Points
+The racer with 25
+
+5: Range of Points between Racers
+range: 0 - 25
+
+Decision Making
+
+Less than statment
+Ouch, the racer with 0 Points, was either back of the grid or DNF.
+
+Greater than statement
+Congrats, racer with 18 points is on the Podium!
+
+Equal to Statement
+Racer2 has won the race 25 Points. Go celebrate with the team!
+
+runfile('C:/Users/Tower/Documents/Data Analytics Sp 2023/Repositories/Reference Repo Sp 2023/datafun-01-getting-started/Data fund. Mod. 1 Assign. 1 Formula1 ex.py', wdir='C:/Users/Tower/Documents/Data Analytics Sp 2023/Repositories/Reference Repo Sp 2023/datafun-01-getting-started')
+Domain: Formula 1
+
+Welcome to the world of Formula 1!
+Enter the number of points won by 3 different racers.
+The values of the points must be between 0 and 25.
+No two racers may have the same amont.
+
+Enter Points for racer1: 10
+
+Enter Points for racer2: 6
+
+Enter Points for racer3: 2
+1: Sum:
+Racer1 and Racer2 are on the same Team.
+The team won: 12
+
+2: Average
+What is the average between all 3 racers?
+Average between racers, rounded result 6
+
+3: Product:
+How many points will a racer have if they consistantly finish all year?
+racer1 wins: 220
+racer2 wins: 132
+racer3 wins: 44
+
+4: Minimum Number of Points
+The racer with 2
+
+5: Maximum Number of Points
+The racer with 10
+
+5: Range of Points between Racers
+range: 2 - 10
+
+Decision Making
+
+Less than statment
+Ouch, the racer with 10 Points, was either back of the grid or DNF.
+
+Greater than statement
+Traceback (most recent call last):
+
+  File "C:\Users\Tower\Documents\Data Analytics Sp 2023\Repositories\Reference Repo Sp 2023\datafun-01-getting-started\Data fund. Mod. 1 Assign. 1 Formula1 ex.py", line 99, in <module>
+    print('Congrats, racer with', maximum, 'points is on the Podium!')
+
+NameError: name 'maximum' is not defined
+
+
+runfile('C:/Users/Tower/Documents/Data Analytics Sp 2023/Repositories/Reference Repo Sp 2023/datafun-01-getting-started/Data fund. Mod. 1 Assign. 1 Formula1 ex.py', wdir='C:/Users/Tower/Documents/Data Analytics Sp 2023/Repositories/Reference Repo Sp 2023/datafun-01-getting-started')
+Domain: Formula 1
+
+Welcome to the world of Formula 1!
+Enter the number of points won by 3 different racers.
+The values of the points must be between 0 and 25.
+No two racers may have the same amont.
+
+Enter Points for racer1: 25
+
+Enter Points for racer2: 8
+
+Enter Points for racer3: 2
+1: Sum:
+Racer1 and Racer2 are on the same Team.
+The team won: 27
+
+2: Average
+What is the average between all 3 racers?
+Average between racers, rounded result 12
+
+3: Product:
+How many points will a racer have if they consistantly finish all year?
+racer1 wins: 550
+racer2 wins: 176
+racer3 wins: 44
+
+4: Minimum Number of Points
+The racer with 2
+
+5: Maximum Number of Points
+The racer with 25
+
+5: Range of Points between Racers
+range: 2 - 25
+
+Decision Making
+
+Less than statment
+Ouch, the racer with 25 Points, was either back of the grid or DNF.
+
+Greater than statement
+Did your racers make it to the podium?
+Congrats, racer with 25 points is on the Podium!
+
+Equal to Statement
+Racer1 has won the race 25 Points. Go celebrate with the team!
+git config --global accoffin12 "accoffin12"
+git config --global accoffin@outlook.com "accoffin@outlook.com"
