@@ -201,5 +201,3 @@ Congrats, racer with 25 points is on the Podium!
 
 Equal to Statement
 Racer1 has won the race 25 Points. Go celebrate with the team!
-git config --global accoffin12 "accoffin12"
-git config --global accoffin@outlook.com "accoffin@outlook.com"

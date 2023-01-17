@@ -113,6 +113,3 @@ if racer2 == first_place:
     print('Racer2 has won the race', racer2, 'Points. Go celebrate with the team!')
 if racer3 == first_place:
     print('Racer3 has won the race with', racer3, 'Points. Go celebrate with the team!') 
-
-git config --global accoffin12 "accoffin12"
-git config --global accoffin@outlook.com "accoffin@outlook.com"

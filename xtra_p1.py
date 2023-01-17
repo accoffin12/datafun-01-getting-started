@@ -53,9 +53,3 @@ if user_choice == buddy_choice:
 # Copy the output from the terminal and paste it into the
 # docstring comment below.
 # --------------------------------------------------------------------
-"""
-
-
-
-
-"""
